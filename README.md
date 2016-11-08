@@ -1,4 +1,4 @@
-#########################################################_Monitoring_System_##########################################################################
+#########################################################Monitoring_System##########################################################################
 
 1. Clone MonitoringSystem.
 2. Open terminal and browse to location where MonitoringSystem is cloned. Execute cd MonitoringSystem/src command.
@@ -6,7 +6,7 @@
 4. generate.sh is used to generate logs.
 5. query.sh is used to query logs and display results. 
 
-#########################################################_Generating_Logs_##########################################################################
+#########################################################Generating_Logs##########################################################################
 
 1. Execute generate.sh by executing below command. This command generates logs for 1000 servers for one day. The command takes approximately 4 seconds to generate logs. This generates logs for 1000 sensors every one minute.  
 	./generate.sh LOG_PATH
@@ -20,7 +20,7 @@
 6. When log generation is done, "Done" message will be displayed in terminal.
 7. Check in the specified folder(LOG_PATH) to make sure the logs are generated correctly.
 
-#########################################################_Executing_Query_##########################################################################
+#########################################################Executing_Query##########################################################################
 
 1. Execute query.sh by executing below command. This command launches the interactive tool. 
 	./query.sh LOG_PATH
